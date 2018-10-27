@@ -1,0 +1,70 @@
+body {  
+ background-image: 
+ url("https://res.cloudinary.com/dk4vuo0ku/image/upload/v1532032785/blue_grid-wallpaper-1280x720_pymny8.jpg");   
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#title {
+  font: 35px sans-serif; 
+}
+
+#tooltip {
+  position: absolute;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.9);
+  pointer-events: none;
+  color: white;
+  font: 12px sans-serif;
+  height: 40px;
+  width:  100px;
+  border-radius: 5px;
+  padding: 10px 2px 2px 2px; 
+}
+
+h2 {
+  color: #fff;
+}
+
+#x-axis, #y-axis {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+svg {
+  background-color: #bbb;
+  border: 3px solid black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+}
+
+rect {
+  stroke: black;
+}
+
+.bar:hover {
+  fill: lightsteelblue;
+}  
+
+.info {
+  margin-bottom: 30px;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   text-align: center;
+}
+
+a:link, a:visited {
+    color: #fff;
+    font-weight: 800;
+    text-align: center;
+    text-decoration: underline;
+}
